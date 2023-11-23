@@ -23,7 +23,7 @@ public class ExampleController : MyController
 		_mapper = mapper;
 	}
 
-    [HttpGet]
+    [HttpGet("GetDocument")]
     public IActionResult Gets()
     {
         return Ok("Hello World");
